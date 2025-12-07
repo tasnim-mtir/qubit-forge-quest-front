@@ -1,25 +1,69 @@
+
 # 🚀 **Qubit-Forge-Quest**
 
 ### **A Decentralized Compute Economy for the Qubic Ecosystem**
 
-Qubit-Forge-Quest (QFQ) is a **decentralized compute marketplace** that connects **creators needing compute**, **investors providing liquidity**, and an **automatic execution engine** managing compute tasks.
-Built for the **Nostromo Launchpad Track** of the *Qubic | Hack the Future Hackathon*, the project showcases how compute can become a **fair, transparent, and scalable on-chain economy**.
+Qubit-Forge-Quest (QFQ) is a **decentralized compute marketplace** that connects:
+
+* **Creators** needing compute
+* **Investors** providing liquidity
+* **An automatic execution engine** running tasks
+
+Built for the **Nostromo Launchpad Track** of the
+⭐ *Qubic — Hack the Future Hackathon*,
+the project demonstrates how computation can become a **transparent, scalable, and fair on-chain economy**.
 
 ---
 
-## 🔗 **Project Links**
+# 🔗 **Project Links**
 
-### 🌐 **Live Demo**
+### 🌐 **Live Frontend Demo**
 
 👉 [https://qubit-forge-quest-front.vercel.app/](https://qubit-forge-quest-front.vercel.app/)
 
-### 📦 **Backend Repository**
+### 🖥️ **Backend API**
 
-👉 [https://github.com/tasnim-mtir/qubit-forge-quest-front](https://github.com/tasnim-mtir/qubit-forge-quest-back/edit/main/README.md)
+👉 [https://qubit-forge-quest-back.onrender.com/](https://qubit-forge-quest-back.onrender.com/)
+
+### 📚 **GitHub Repositories**
+
+**Frontend:**
+👉 [https://github.com/tasnim-mtir/qubit-forge-quest-front](https://github.com/tasnim-mtir/qubit-forge-quest-front)
+
+**Backend:**
+👉 [https://github.com/tasnim-mtir/qubit-forge-quest-back](https://github.com/tasnim-mtir/qubit-forge-quest-back)
 
 ---
 
-## ⭐ **Table of Contents**
+# 🧪 **Test Accounts (For Judges & Reviewers)**
+
+These accounts allow quick testing of all roles and dashboards.
+⚠️ *Please do not modify these credentials — they are shared for hackathon evaluation.*
+
+### 🔐 **Admin**
+
+```
+Email: admin@admin.com
+Password: Admin123
+```
+
+### 👨‍💻 **Creator**
+
+```
+Email: creator@gmail.com
+Password: Creator123
+```
+
+### 💰 **Investor**
+
+```
+Email: investor@gmail.com
+Password: Investor123
+```
+
+---
+
+# ⭐ **Table of Contents**
 
 1. [Overview](#overview)
 2. [Key Features](#key-features)
@@ -40,81 +84,93 @@ Built for the **Nostromo Launchpad Track** of the *Qubic | Hack the Future Hacka
 
 # 📌 **Overview**
 
-Today, compute access is centralized, expensive, and unfair.
+Traditional compute systems are:
+
+❌ Centralized
+❌ Expensive
+❌ Limited
+❌ Unfair
+
 Qubit-Forge-Quest introduces a **compute economy** where:
 
 * **Creators** submit compute tasks and pay in Compute Credits (CC)
 * **Investors** stake QX tokens to generate CC yield
-* **Processors** automatically execute tasks
-* **Admins** maintain ecosystem balance
+* **Processors** run tasks with simulated parallel compute
+* **Admins** keep the system healthy
 
-The platform implements a **fully working economic simulation**, reflecting how a real launchpad-grade protocol can function on **Qubic & Nostromo**.
+The entire platform runs an economic simulation of how compute could be tokenized on **Qubic + Nostromo**.
 
 ---
 
 # ✨ **Key Features**
 
-### 🔐 **Authentication & Role Access**
+### 🔐 Authentication & Access Control
 
-* Secure login with **JWT** and **Google OAuth**
-* Role-based access control (User, Creator, Investor, Admin)
-* Users can **request role upgrades** (Creator / Investor)
-
----
-
-### 🧪 **Creator Functionality**
-
-* Create compute tasks with cost, priority, and metadata
-* View task history (Queued, Running, Completed, Failed)
-* Real-time queue status and CC balance
+* JWT-based login
+* Google OAuth integration
+* Role-based access (User → Creator / Investor → Admin)
+* Users can request role upgrades
+* Admins approve requests
+* Secure session management
 
 ---
 
-### 💰 **Investor Functionality**
+### 👨‍💻 Creator Features
 
-* Stake QX → Generate Compute Credits (CC)
-* View active stakes, yields, and credit flow
-* Lease out CC to creators (simulated marketplace)
+* Create compute tasks with:
+
+  * Name
+  * Description
+  * Priority
+  * Cost (CC)
+  * Estimated duration
+* View all tasks: Queued / Running / Completed / Failed
+* Monitor real-time queue position
+* Check CC balance
+* Download task results
 
 ---
 
-### ⚙️ **Admin Functionality**
+### 💰 Investor Features
 
-* Approve or reject pending role requests
-* Manage users, update roles or disable accounts
-* Monitor vault metrics:
+* Stake QX → Earn Compute Credits (CC)
+* View active stakes
+* CC rewards tracking
+* Explore compute leasing options
+* Analyze ROI and portfolio metrics
+
+---
+
+### ⚙️ Admin Features
+
+* Approve role upgrade requests
+* Manage users and ban/unban
+* Global ecosystem metrics:
 
   * Total QX staked
   * Total CC minted
-  * Total tasks executed
-* View global system activity
+  * CC consumption
+  * Task execution stats
+* View vault health
+* Monitor automatic processor
 
 ---
 
-### ⚡ **Automatic Task Processor**
+### ⚡ Automatic Task Processor (Background Engine)
 
-A background engine that:
+This is the **core innovation** of the project.
 
-* Constantly scans queue
-* Executes tasks with simulated processing times
-* Supports FIFO and parallel execution
-* Includes retry logic for failures
-* Updates vault credit consumption
-* Maintains realism for demo purposes
+The engine:
 
-This is the *heart of the protocol* and demonstrates scalable compute automation.
+* Continuously monitors the queue
+* Executes tasks automatically
+* Supports parallel execution
+* Simulates compute time
+* Logs execution events
+* Performs auto-retries
+* Updates vault metrics
 
----
-
-### 🗃️ **Vault Economy**
-
-Tracks global state:
-
-* CC supply
-* QX staked
-* CC reward distribution
-* Fees & consumption
-* Compute throughput
+It demonstrates how a decentralize compute-worker network would behave.
 
 ---
 
@@ -122,113 +178,115 @@ Tracks global state:
 
 ```
                 ┌──────────────────────────┐
-                │        FRONTEND           │
+                │         FRONTEND          │
                 │ React + Vite + Tailwind   │
-                │ Dashboards + Auth UI      │
-                └─────────────┬────────────┘
-                              │
-                              ▼
-               ┌──────────────────────────┐
-               │        BACKEND API        │
-               │ Node.js + Express         │
-               │ Auth • Tasks • Vault • Stake │
-               └─────────────┬────────────┘
-                              │
-                              ▼
-               ┌──────────────────────────┐
-               │       VAULT STATE         │
-               │ CC Supply • Stakes • Tasks│
-               └─────────────┬────────────┘
-                              │
-                              ▼
-               ┌──────────────────────────┐
-               │  AUTOMATIC TASK PROCESSOR │
-               │ Queue → Running → Done     │
-               └─────────────┬────────────┘
-                              │
-                              ▼
-               ┌──────────────────────────┐
-               │      MongoDB Atlas        │
-               └──────────────────────────┘
+                │ Dashboards + Google Auth  │
+                └──────────────┬────────────┘
+                               │
+                               ▼
+               ┌──────────────────────────────┐
+               │          BACKEND API          │
+               │ Node.js + Express + Mongoose  │
+               │ Auth • Tasks • Staking • Vault │
+               └──────────────┬───────────────┘
+                               │
+                               ▼
+               ┌──────────────────────────────┐
+               │        AUTOMATIC PROCESSOR     │
+               │  Queue → Running → Completed   │
+               │  Parallel execution engine     │
+               └──────────────┬───────────────┘
+                               │
+                               ▼
+               ┌──────────────────────────────┐
+               │        MongoDB Atlas          │
+               │   Users • Tasks • Stakes      │
+               │   Vault • Leases • Requests   │
+               └──────────────────────────────┘
 ```
 
 ---
 
 # 🧑‍💻 **User Roles & Dashboards**
 
-### 👨‍💻 **Creator Dashboard**
+### 👨‍💻 Creator Dashboard
 
-* CC balance widget
-* Submit tasks
-* Task queue/status
-* Download results
-
-### 💰 **Investor Dashboard**
-
-* Create stakes
-* Earn CC credits
-* View returns
-* Lease marketplace
-
-### ⚙️ **Admin Dashboard**
-
-* Approve role upgrade requests
-* Edit user roles
-* Global metrics dashboard
-* System health monitoring
+* CC balance
+* Task creation
+* Task history
+* Queue tracking
+* Execution stats
 
 ---
 
-# ⚡ **Automatic Task Processor**
+### 💰 Investor Dashboard
 
-The processor is a continuously running engine:
+* QX staking
+* CC generation
+* Leasing marketplace
+* ROI metrics
 
-* Picks all queued tasks
-* Executes each independently
-* Simulates success/failure
-* Adds computed metadata
-* Updates vault state
+---
 
-This demonstrates how a compute network on Qubic could operate.
+### ⚙️ Admin Dashboard
+
+* Role upgrade approvals
+* User management
+* Vault statistics
+* System health
+* Global analytics
+
+---
+
+# ⚡ **Automatic Task Processor (Engine)**
+
+**Features:**
+
+✔ Picks all queued tasks
+✔ Runs them in **parallel**
+✔ Simulates execution time
+✔ Logs all execution events
+✔ Auto-updates vault consumption
+✔ Updates task status
+✔ Success/failure simulation
+✔ Works continuously in the background
 
 ---
 
 # 🛠️ **Tech Stack**
 
-| Layer            | Technology                          |
-| ---------------- | ----------------------------------- |
-| Frontend         | React, Vite, Tailwind, ShadCN       |
-| Backend          | Node.js, Express.js                 |
-| Database         | MongoDB Atlas, Mongoose             |
-| Auth             | JWT, Google OAuth                   |
-| Deployment       | Vercel (Frontend), Render (Backend) |
-| Processor Engine | Custom Node background worker       |
+| Layer      | Technology                          |
+| ---------- | ----------------------------------- |
+| Frontend   | React, Vite, Tailwind, ShadCN       |
+| Backend    | Node.js, Express.js                 |
+| Database   | MongoDB Atlas, Mongoose             |
+| Auth       | JWT, Google OAuth                   |
+| Deployment | Vercel (Frontend), Render (Backend) |
+| Processor  | Custom Node background worker       |
 
 ---
 
 # 📁 **Project Structure**
 
 ```
-root/
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   ├── server.js
-│   └── .env
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   ├── index.html
-│   └── .env
-└── README.md
+backend/
+│── models/
+│── routes/
+│── services/
+│── middleware/
+│── server.js
+frontend/
+│── src/
+│── public/
+│── index.html
+README.md
 ```
 
 ---
 
 # 🔌 **API Overview**
 
-### **Authentication**
+### **Auth Routes**
 
 ```
 POST /api/auth/register
@@ -236,18 +294,20 @@ POST /api/auth/login
 GET  /api/auth/google
 ```
 
-### **Tasks**
+### **Creator / Tasks**
 
 ```
-POST /api/protocol/tasks
-GET  /api/protocol/tasks
+POST /api/protocol/compute-task/create
+GET  /api/protocol/compute-task/my-tasks
+PUT  /api/protocol/compute-task/:id/simulate-complete
 ```
 
-### **Staking**
+### **Investor / Staking**
 
 ```
 POST /api/protocol/stake
-GET  /api/protocol/stake
+GET  /api/protocol/stake/user/:id
+GET  /api/protocol/stake/all
 ```
 
 ### **Role Requests**
@@ -258,29 +318,35 @@ GET  /api/pending-requests
 PUT  /api/approve-request
 ```
 
+### **System / Analytics**
+
+```
+GET /api/protocol/vault/stats
+GET /api/protocol/processor/status
+GET /api/protocol/analytics/network-metrics
+```
+
 ---
 
 # 🔐 **Environment Variables**
 
-### **Backend (.env)**
+### **Backend `.env`**
 
 ```
 MONGO_URI=
 DATABASE_NAME=
 JWT_SECRET=
-PORT=3000
-
 GOOGLE_CLIENT_ID=
 GOOGLE_CLIENT_SECRET=
 GOOGLE_REDIRECT_URI=
-
-FRONTEND_URL=https://your-frontend.vercel.app
+FRONTEND_URL=https://qubit-forge-quest-front.vercel.app
+PORT=3000
 ```
 
-### **Frontend (.env)**
+### **Frontend `.env`**
 
 ```
-VITE_API_URL=https://your-backend.onrender.com
+VITE_API_URL=https://qubit-forge-quest-back.onrender.com
 ```
 
 ---
@@ -305,48 +371,50 @@ npm run dev
 
 ---
 
-# 🚀 **Deployment**
+# 🚀 **Deployment Instructions**
 
 ### **Backend (Render)**
 
-* Create Web Service
+* Create new Web Service
 * Add environment variables
-* Deploy server.js
+* Deploy `server.js`
 
 ### **Frontend (Vercel)**
 
 * Import GitHub repo
-* Add VITE_API_URL
-* Deploy instantly
+* Add `VITE_API_URL`
+* Deploy
 
 ---
 
 # 🛣️ **Roadmap**
 
-* Implement real Qubic VM execution
-* Integrate smart contracts for staking logic
-* Launch Nostromo-compatible token economics
-* Add distributed GPU compute backend
-* Multi-node processor network
+* Real Qubic VM integration
+* Smart contracts for staking & CC minting
+* Distributed GPU execution backend
+* Multi-node execution network
+* Native Qubic tokenization of compute
 
 ---
 
 # 👥 **Team**
 
-**Qubitium Team**
+### **Qubitium Team**
+
 Built with passion for decentralized compute and the future of Qubic.
 
 ---
 
 # 📄 **License**
 
-MIT License — free to use, modify, and expand.
+MIT License — free to use and expand.
 
 ---
 
 # 🎉 **Thank You!**
 
-If you like this project, please ⭐ star the repo and share your feedback!
+If you enjoyed this project, ⭐ star the repo and share your feedback!
 
----
 
+
+Just tell me!
