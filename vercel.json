@@ -1,16 +1,5 @@
 {
-  "redirects": [
-    {
-      "source": "/auth",
-      "destination": "https://qubit-forge-quest-front.vercel.app/auth",
-      "permanent": true
-    },
-    {
-      "source": "/(.*)",
-      "destination": "https://qubit-forge-quest-front.vercel.app/$1",
-      "permanent": true
-    }
-  ],
+  
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ]
