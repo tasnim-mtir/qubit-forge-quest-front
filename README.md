@@ -401,7 +401,7 @@ npm run dev
 
 ### **Qubitium Team**
 
-Built with passion for decentralized compute and the future of Qubic.
+Tasnim Mtir & Razi Ammari.
 
 ---
 
