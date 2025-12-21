@@ -376,17 +376,9 @@ npm run dev
 Tasnim Mtir & Razi Ammari.
 
 ---
-
-# 📄 **License**
-
-MIT License — free to use and expand.
-
----
-
 # 🎉 **Thank You!**
 
 If you enjoyed this project, ⭐ star the repo and share your feedback!
 
 
 
-Just tell me!
