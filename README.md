@@ -35,34 +35,6 @@ the project demonstrates how computation can become a **transparent, scalable, a
 
 ---
 
-# 🧪 **Test Accounts (For Judges & Reviewers)**
-
-These accounts allow quick testing of all roles and dashboards.
-⚠️ *Please do not modify these credentials — they are shared for hackathon evaluation.*
-
-### 🔐 **Admin**
-
-```
-Email: admin@admin.com
-Password: Admin123
-```
-
-### 👨‍💻 **Creator**
-
-```
-Email: creator@gmail.com
-Password: Creator123
-```
-
-### 💰 **Investor**
-
-```
-Email: investor@gmail.com
-Password: Investor123
-```
-
----
-
 # ⭐ **Table of Contents**
 
 1. [Overview](#overview)
